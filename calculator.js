@@ -20,6 +20,4 @@ let calculator = class {
     }
 }
 const calculate = new calculator;
-const sum = calculate.add(-3, -5);
-console.log(sum);
 module.exports = calculator;
