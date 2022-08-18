@@ -1,5 +1,6 @@
-import stringLength from "./strLength";
+let stringLength = require('./strLength.js');
 
-test('counts the number of characters in a string', (string) => {
-    expect(string.length).tobe
-});
+test('counts the number of characters in a string', () => {
+    expect(stringLength('hello')).toBe(5);
+}
+);

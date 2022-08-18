@@ -1,6 +1,6 @@
-export default function stringLength(string) {
+let stringLength = (string) => {
     for(let i = 0; i < string.length; i++) {
         return string.length;
     }
 }
-console.log(stringLength('hello'));
+module.exports = stringLength;
