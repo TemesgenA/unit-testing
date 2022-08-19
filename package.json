@@ -5,7 +5,7 @@
   "name": "unit-testing",
   "description": "JS test code to perform unit test on JavaScript app",
   "version": "1.0.0",
-  "main": "reverseString.js",
+  "main": "strLength.js",
   "dependencies": {
     "import-local": "^3.1.0",
     "jest-cli": "^28.1.3"
